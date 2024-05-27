@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Shopping</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+        .product {
+            border: 1px solid #ddd;
+            margin: 10px;
+            padding: 10px;
+            border-radius: 5px;
+        }
+        .product img {
+            max-width: 100%;
+        }
+        .product h2 {
+            font-size: 1.5em;
+            margin: 10px 0;
+        }
+        .product p {
+            font-size: 1em;
+            color: #555;
+        }
+        .product .price {
+            font-size: 1.2em;
+            color: #000;
+        }
+        .product button {
+            background-color: #28a745;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 1em;
+            margin: 10px 0;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+        .product button:hover {
+            background-color: #218838;
+        }
+        .nobullet{
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+        }
+    </style>
+</head>
+<body>
+    	<div>
+		<ul class="nobullet">
+		  <li><a href="b.html">HOME</a></li>
+		  <li><a class ="active"href="r.html">Shop</a></li>
+		  <li><a href="i.html">Contact</a></li>
+		  <li><a href="s.html">Terms and Policy</a></li>
+		  <li><a href="COMPILATION.html">Exercises</a></li>
+		  
+		</ul>
+
+	</div>
+
+    <h1>Online Shopping</h1>
+    <div class="product">
+        <img src="z.jpeg" alt="CONG">
+        <h2>CONG CLOTHING</h2>
+        <p>Cong Clothing is one of the famous Clothing Brand here in the Philippines, If you want to have one just buy to my shop.</p>
+        <div class="price">600.00</div>
+        <button onclick="addToCart()">Add to Cart</button>
+    </div>
+
+    <script>
+        function addToCart() {
+            alert("Product added to cart!");
+        }
+    </script>
+</body>
+</html>

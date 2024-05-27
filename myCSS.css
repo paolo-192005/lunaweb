@@ -1,0 +1,65 @@
+body{
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-position: center;
+    background-attachment:fixed ;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.nobullet{
+  list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+label{
+  font-family: CALIBRI;
+  color: blue;
+  font-size: 20px solid blue;
+}
+  
+
+header h1 {
+    margin: 0;
+    color: blue;
+}
+ li a{
+  font-family: Monospace;
+  text-align: center;
+  font-size: 20px solid blue;
+  align-content: center;
+  padding: 20px;
+  float: left;
+  
+}
+.h2 b{
+  font-family: Aloja;
+  text-align: center;
+  color: black;
+  
+  
+}
+.h3 b{
+  text-align: center;
+  font-family: Monospace;
+}
+.Contact{
+  float: center;
+  color: white;
+  font-family: Monospace;
+  
+}
+.body h1{
+  float:center;
+  color:white;
+}
+.Home{
+  color: khaki;
+  font-family: Monospace;
+}
+h1{
+  font-family: Calibri;
+  color: khaki;
+  
+}
+        

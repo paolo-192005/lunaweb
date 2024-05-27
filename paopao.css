@@ -1,0 +1,92 @@
+
+.activities{
+    margin:0px auto;
+    display: table;
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+  .activities .box-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 1rem 0;
+    padding-left: 3rem;
+  
+  }
+  
+  .activities .box-container .box{
+    width: 27rem;
+    margin: 4rem 1rem;
+    padding-left: 4rem;
+    border-left: .2rem solid #fff;
+  }
+  
+  .activities .box-container .box i{
+    height:  5rem;
+    width:5rem;
+    border-radius: 50%;
+    line-height:5rem;
+    text-align: center;
+    font-size: 2rem;
+    color: black;
+    background: #ffbf35;
+  }
+  
+  .activities .box-container .box a{
+    text-decoration: none;
+    color: #fff;
+  }
+    .activities .box-container .box span{
+    display: block;
+    margin: 1.2rem 0;
+    text-align: center;
+    font-size:2rem;
+    background: khaki;
+    border-radius: 5rem;
+    padding: .5rem 2.5rem;
+    cursor: pointer;
+  }
+  
+  .activities .box-container .box span a:hover{
+    color: #f9ca24;
+  }
+  
+  .gallery .box-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 2rem 0;
+  }
+  
+  .gallery .box-container .box{
+    height: 20rem;
+    width: 26rem;
+    border-radius: 1rem;
+    margin: 2rem;
+    overflow: hidden;
+    cursor: pointer;
+  
+  }
+  
+  .gallery .box-container .box img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+  }
+  
+  .gallery .box-container .box:hover img{
+    transform: scale(1.2);
+  }
+  .heading{
+    text-align: center;
+    color: darkmagenta;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+   .nobullet{
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+  }
+  
